@@ -1,0 +1,7 @@
+Third-pass merge report
+Run timestamp: 2026-03-02T14:54:31
+Input cluster2 rows: 1087
+Theme3 rows: 186
+Themes merging >1 cluster2: 108
+Largest theme claim_occurrences: 104
+Goalpost candidates: 17

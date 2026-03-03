@@ -1,0 +1,48 @@
+First-pass canonical extraction report
+Run timestamp: 2026-03-02T14:44:39
+Posts scanned: 474
+Claim instances: 1151
+Canonical clusters: 1137
+Evaluation date anchor: 2026-03-02
+
+Category counts:
+- capability: 111
+- industry_market: 28
+- policy: 260
+- prediction: 406
+- technical_assessment: 346
+
+Falsifiability tier counts:
+- tier_1: 174
+- tier_2: 418
+- tier_3: 559
+
+Very short post files (<500 bytes): 26
+- 2023-02-11_coming-soon.txt
+- 2023-03-31_italian-ban-on-chatgpt.txt
+- 2023-10-20_how-long-dies-ai-hype-take-to-die.txt
+- 2023-11-17_sam-altman-appears-to-have-been-pushed.txt
+- 2023-11-20_im-not-making-this-up.txt
+- 2023-11-22_massive-scoop.txt
+- 2023-12-09_it-was-always-about-trust.txt
+- 2024-04-08_corrected-link-re-new-paper-on-scaling.txt
+- 2024-06-04_openai-insiders-warn-of-a-reckless.txt
+- 2024-06-05_first-sign-of-genai-winter.txt
+- 2025-01-10_the-impeccable-logic-of-sam-altman.txt
+- 2025-01-21_the-2023-white-house-executive-order.txt
+- 2025-01-27_nvidia-could-soon-take-a-serious.txt
+- 2025-02-09_shame-on-google-twice.txt
+- 2025-02-20_genai-in-two-words-success-theater.txt
+- 2025-04-11_one-giant-leap-towards-authoritarian.txt
+- 2025-09-03_scaling-hasnt-gotten-us-to-agi-or.txt
+- 2025-09-17_if-anyone-builds-it-does-everybody.txt
+- 2025-09-30_sam-altman-and-copyright-then-and.txt
+- 2025-11-11_5-recent-ominous-signs-for-generative.txt
+- 2025-12-15_a-case-for-ai-models-that-understand.txt
+- 2026-01-21_the-big-short-meets-marcus-on-ai.txt
+- 2026-01-22_breaking-sir-demis-hassabis-becomes.txt
+- 2026-02-11_the-literal-enshittification-of-the.txt
+- 2026-02-26_historic-statement-from-dario-amodei.txt
+- 2026-02-26_retired-us-air-force-general-jack.txt
+
+Caveat: deterministic heuristics; includes false positives/negatives.

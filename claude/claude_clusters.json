@@ -1,0 +1,596 @@
+[
+  {
+    "cluster_id": "ai_needs_regulation",
+    "canonical_statement": "AI systems need robust government regulation because industry self-regulation is insufficient to protect the public.",
+    "first_appearance": "claim_0070",
+    "claim_count": 164,
+    "date_range": [
+      "2023-02-11",
+      "2026-02-26"
+    ],
+    "revision_notes": "Urgency escalated while specifics evolved. 2023: called for 'international agency for AI' and FDA-like oversight. 2024: focused on SB-1047 and specific legislative mechanisms. 2025-2026: shifted to alarm about Trump deregulation creating 'essentially zero regulation.' The policy proposals became more specific and the warnings more dire as US regulatory landscape deteriorated."
+  },
+  {
+    "cluster_id": "ai_roi_disappointing",
+    "canonical_statement": "AI ROI has been deeply disappointing; companies spend far more on AI than they earn, productivity gains remain elusive.",
+    "first_appearance": "claim_0050",
+    "claim_count": 132,
+    "date_range": [
+      "2023-02-11",
+      "2026-03-01"
+    ],
+    "revision_notes": "Dramatic escalation in scale of criticism. 2023: noted high costs. 2024: '$50B spending vs $3B revenue.' 2025: 'infrastructure spending (~$250B) outweighs revenue perhaps 50:1.' 2026: '$800B revenue shortfall by 2030,' '95% of organizations see no measurable return.' Each year brought larger numbers and stronger language."
+  },
+  {
+    "cluster_id": "llms_lack_world_models",
+    "canonical_statement": "LLMs do not build genuine world models or understand the world; they manipulate statistical patterns without comprehension.",
+    "first_appearance": "claim_0001",
+    "claim_count": 124,
+    "date_range": [
+      "2022-05-29",
+      "2026-02-23"
+    ],
+    "revision_notes": "Asserted 124 times across 73 distinct dates from 2022-05-29 to 2026-02-23"
+  },
+  {
+    "cluster_id": "hallucination_unsolvable",
+    "canonical_statement": "LLM hallucination/confabulation is an inherent architectural limitation that cannot be fully solved within the current paradigm.",
+    "first_appearance": "claim_0015",
+    "claim_count": 120,
+    "date_range": [
+      "2023-01-31",
+      "2026-02-23"
+    ],
+    "revision_notes": "Core thesis unchanged from 2023-2026: hallucination is architectural, not a bug. Early (2023): 'LLMs inherently cannot track truth.' Late (2025-2026): 'LLMs still hallucinate, make boneheaded errors.' Notable escalation: from noting the problem exists to documenting that lawyer incidents grew 8x and rates persist at 15-60% even with source articles supplied. Never softened; consistently asserted as unfixable within current paradigm."
+  },
+  {
+    "cluster_id": "scaling_wont_reach_agi",
+    "canonical_statement": "Simply scaling up LLM architectures (more data, parameters, compute) will not produce AGI or solve fundamental capability gaps.",
+    "first_appearance": "claim_0002",
+    "claim_count": 106,
+    "date_range": [
+      "2022-05-29",
+      "2026-02-01"
+    ],
+    "revision_notes": "Thesis hardened over time. Early (2022): 'scaling has not yet produced systems that reliably understand the world' (hedged with 'not yet'). By 2024-2025: 'pure scaling of transformer-based LLMs is not the path to AGI' (categorical). Late (2025-2026): 'the era when simply adding data and compute yielded major improvements is likely over' and 'the only people still claiming LLM scaling is sufficient are grifters.' Claimed vindication as industry insiders confirmed scaling plateaus in late 2024."
+  },
+  {
+    "cluster_id": "openai_wont_stay_dominant",
+    "canonical_statement": "OpenAI will not maintain dominance and faces serious competitive, financial, and organizational challenges.",
+    "first_appearance": "claim_0172",
+    "claim_count": 87,
+    "date_range": [
+      "2023-02-15",
+      "2026-02-27"
+    ],
+    "revision_notes": "Escalating pessimism. 2023: 'OpenAI's core technology is replicable.' 2024: 'loses money on every prompt,' 'WeWork of AI.' 2025: 'expects to spend $150B on compute,' 'no more than a year of runway.' Late 2025-2026: actively predicting government bailout scenarios. Financial critique intensified as OpenAI's losses became clearer."
+  },
+  {
+    "cluster_id": "miscellaneous",
+    "canonical_statement": "Miscellaneous claims that do not fit neatly into any other cluster.",
+    "first_appearance": "claim_0012",
+    "claim_count": 86,
+    "date_range": [
+      "2022-05-29",
+      "2026-03-01"
+    ],
+    "revision_notes": null
+  },
+  {
+    "cluster_id": "deepfakes_threaten_democracy",
+    "canonical_statement": "AI-generated deepfakes and misinformation pose a severe threat to democracy, elections, and public trust.",
+    "first_appearance": "claim_0065",
+    "claim_count": 79,
+    "date_range": [
+      "2023-02-11",
+      "2026-02-23"
+    ],
+    "revision_notes": "Threat assessment escalated. 2023: 'at least one of 60+ elections in 2024 will likely be swayed by deepfakes.' 2024-2025: documented increasing real-world incidents. 2026: 'deepfake technology can fake anyone at nearly zero cost' and 'more deepfake scams than all prior years combined.' Shifted from warning about potential to documenting reality."
+  },
+  {
+    "cluster_id": "ai_copyright_infringement",
+    "canonical_statement": "Generative AI is built on massive copyright infringement and the industry cannot solve the attribution problem.",
+    "first_appearance": "claim_0054",
+    "claim_count": 72,
+    "date_range": [
+      "2023-02-11",
+      "2026-02-13"
+    ],
+    "revision_notes": "Predictions largely vindicated. 2023: 'NYT lawsuit will be followed by many similar lawsuits.' 2024: '2024 will be the year of generative AI litigation' (confirmed). Consistent architectural critique that 'current architectures are structurally unable to attribute outputs to source materials.'"
+  },
+  {
+    "cluster_id": "gpt5_disappointing",
+    "canonical_statement": "GPT-5 is a moderate quantitative improvement that fails in the same qualitative ways as predecessors, confirming scaling limits.",
+    "first_appearance": "claim_0315",
+    "claim_count": 65,
+    "date_range": [
+      "2023-04-09",
+      "2026-02-12"
+    ],
+    "revision_notes": "Classic goalpost tracking. April 2023: 'GPT-5 will be incrementally better with the same flaws, not a qualitative leap.' Late 2023: 'OpenAI likely delayed GPT-5 because internal tests showed insufficient improvement.' 2024: increasingly confident predictions that GPT-5 would disappoint. August 2025: claimed vindication -- 'GPT-5 was one of the most overhyped products in history.' The thesis never changed; Marcus consistently predicted incremental gains, and events aligned with his predictions."
+  },
+  {
+    "cluster_id": "llms_cannot_reason_reliably",
+    "canonical_statement": "LLMs cannot perform genuine, reliable reasoning; they approximate it through statistical pattern matching that breaks on novel problems.",
+    "first_appearance": "claim_0044",
+    "claim_count": 64,
+    "date_range": [
+      "2023-02-11",
+      "2026-02-17"
+    ],
+    "revision_notes": "Consistent core thesis with minor adaptations to new evidence. 2023: 'LLMs are inherently weak at reasoning.' After o1/o3 (2024): acknowledged improvements but maintained 'chain-of-thought reasoning is brittle beyond training distributions.' 2025-2026: 'LLMs lack persistent goals, struggle with long-horizon reasoning.' Language shifted from 'cannot reason at all' to 'cannot reason reliably' as models showed genuine but inconsistent improvement."
+  },
+  {
+    "cluster_id": "genai_bubble_will_burst",
+    "canonical_statement": "The generative AI industry is a financial bubble with massive spending relative to revenue that will eventually burst.",
+    "first_appearance": "claim_0090",
+    "claim_count": 63,
+    "date_range": [
+      "2023-02-12",
+      "2026-02-17"
+    ],
+    "revision_notes": "Escalating certainty. Early (2023): framed as possibility ('potential AI winter'). Mid (2024): 'spending $50B while generating only $3B in revenue is not sustainable.' Late (2025-2026): 'greatest capital destruction in history,' '$800B revenue shortfall by 2030,' actively predicting government bailout scenarios. The magnitude of predicted damage grew with each iteration."
+  },
+  {
+    "cluster_id": "gpt4_overhyped",
+    "canonical_statement": "GPT-4 was overhyped; it represents incremental improvement, not a paradigm shift, with the same fundamental limitations.",
+    "first_appearance": "claim_0072",
+    "claim_count": 61,
+    "date_range": [
+      "2023-02-11",
+      "2025-10-27"
+    ],
+    "revision_notes": "Thesis set early and maintained. 2023: 'GPT-4 was overhyped' with detailed documentation of failures. Persistent assertion through 2025 that GPT-4 had 'same fundamental limitations as prior models' despite industry claims of breakthrough."
+  },
+  {
+    "cluster_id": "openai_untrustworthy",
+    "canonical_statement": "OpenAI has become untrustworthy, prioritizing profit over safety, breaking promises, and misleading the public.",
+    "first_appearance": "claim_0293",
+    "claim_count": 56,
+    "date_range": [
+      "2023-03-25",
+      "2026-02-27"
+    ],
+    "revision_notes": "Thesis strengthened dramatically over time. Early (2023): general concerns about safety culture. November 2023: Altman firing provided major evidence. 2024-2025: documented safety team attrition (50%+ left), NDA controversies, board drama vindication, for-profit conversion criticism. Late 2025-2026: 'vendor financing dressed up as venture capital,' 'OpenAI's finances don't make sense.' Each new controversy reinforced the original thesis."
+  },
+  {
+    "cluster_id": "musk_ai_hypocrisy",
+    "canonical_statement": "Elon Musk is hypocritical on AI safety; his ventures (xAI, DOGE, Tesla) demonstrate reckless deployment and pursuit of power.",
+    "first_appearance": "claim_0077",
+    "claim_count": 55,
+    "date_range": [
+      "2023-02-11",
+      "2026-02-13"
+    ],
+    "revision_notes": "Broadened scope over time. 2023: focused on Musk's contradictory AI safety positions. 2024: expanded to include DOGE and political power. 2025-2026: Tesla Optimus dismissed as 'mostly demos,' xAI valuations called 'irrational.' The critique shifted from 'hypocritical on safety' to 'dangerous wielder of power.'"
+  },
+  {
+    "cluster_id": "agi_not_imminent",
+    "canonical_statement": "AGI is not imminent and claims of near-term AGI by AI labs are unfounded hype.",
+    "first_appearance": "claim_0163",
+    "claim_count": 51,
+    "date_range": [
+      "2023-02-15",
+      "2026-02-23"
+    ],
+    "revision_notes": "Consistent thesis from 2023-2026 but framing shifts: early claims (2023) stated 'LLMs are not close to AGI' generally; by 2025 shifted to specific rebuttals of named timelines (Amodei pushed from 2025-2026 to 2026-2027; Marcus bets 10:1 against 8/10 AGI tasks by 2027). Language evolved from 'not close' to 'almost zero chance within 2-3 years.' Concedes AGI is 'not logically impossible' and 'will be achieved someday' but 'not on the imminent timeline industry claims.'"
+  },
+  {
+    "cluster_id": "need_hybrid_neurosymbolic",
+    "canonical_statement": "Progress toward AGI requires hybrid neurosymbolic architectures combining neural networks with structured symbolic reasoning.",
+    "first_appearance": "claim_0006",
+    "claim_count": 46,
+    "date_range": [
+      "2022-05-29",
+      "2025-12-17"
+    ],
+    "revision_notes": "Remarkably consistent thesis across entire period. 2022: 'neural networks have not demonstrated ability to reliably create and manipulate symbols.' 2025: 'neurosymbolic AI will become much more prominent' and 'AlphaProof/AlphaGeometry prove symbolic integration works.' Claimed growing vindication as DeepMind's hybrid systems outperformed pure LLMs on formal reasoning."
+  },
+  {
+    "cluster_id": "o3_not_breakthrough",
+    "canonical_statement": "OpenAI's o1/o3 reasoning models are not the breakthrough claimed; they still exhibit fundamental LLM limitations.",
+    "first_appearance": "claim_0754",
+    "claim_count": 45,
+    "date_range": [
+      "2024-02-29",
+      "2026-02-10"
+    ],
+    "revision_notes": "Emerged with o1 announcement in late 2024, peak activity after o3. Consistent thesis: inference-time scaling is expensive, unreliable, and subject to same diminishing returns as training-time scaling. 'Chain-of-thought reasoning is brittle capability that fails when pushed beyond training distributions.'"
+  },
+  {
+    "cluster_id": "llm_reliability_fundamental",
+    "canonical_statement": "LLM unreliability is a fundamental architectural issue, not a bug fixable with more training or RLHF.",
+    "first_appearance": "claim_0048",
+    "claim_count": 43,
+    "date_range": [
+      "2023-02-11",
+      "2026-02-23"
+    ],
+    "revision_notes": "Asserted 43 times across 37 distinct dates from 2023-02-11 to 2026-02-23"
+  },
+  {
+    "cluster_id": "ai_benchmarks_misleading",
+    "canonical_statement": "AI benchmarks and demos are frequently misleading, creating false impressions of capabilities.",
+    "first_appearance": "claim_0013",
+    "claim_count": 41,
+    "date_range": [
+      "2023-01-31",
+      "2026-02-17"
+    ],
+    "revision_notes": "Asserted 41 times across 33 distinct dates from 2023-01-31 to 2026-02-17"
+  },
+  {
+    "cluster_id": "llms_no_real_understanding",
+    "canonical_statement": "LLMs are fundamentally statistical pattern matchers / next-word predictors without genuine understanding.",
+    "first_appearance": "claim_0014",
+    "claim_count": 40,
+    "date_range": [
+      "2023-01-31",
+      "2026-02-25"
+    ],
+    "revision_notes": "Asserted 40 times across 26 distinct dates from 2023-01-31 to 2026-02-25"
+  },
+  {
+    "cluster_id": "llms_unreliable_for_critical_apps",
+    "canonical_statement": "LLMs are too unreliable for high-stakes applications including medicine, law, autonomous vehicles, and robotics.",
+    "first_appearance": "claim_0005",
+    "claim_count": 40,
+    "date_range": [
+      "2022-05-29",
+      "2026-02-17"
+    ],
+    "revision_notes": "Asserted 40 times across 23 distinct dates from 2022-05-29 to 2026-02-17"
+  },
+  {
+    "cluster_id": "ai_academic_integrity",
+    "canonical_statement": "AI threatens scientific/academic integrity through plagiarism, fake research, and information pollution.",
+    "first_appearance": "claim_0008",
+    "claim_count": 40,
+    "date_range": [
+      "2022-05-29",
+      "2026-02-23"
+    ],
+    "revision_notes": "Asserted 40 times across 28 distinct dates from 2022-05-29 to 2026-02-23"
+  },
+  {
+    "cluster_id": "ai_coding_overhyped",
+    "canonical_statement": "AI coding tools produce unreliable code with security vulnerabilities; productivity gains are exaggerated.",
+    "first_appearance": "claim_0379",
+    "claim_count": 38,
+    "date_range": [
+      "2023-08-14",
+      "2026-02-11"
+    ],
+    "revision_notes": "Shifted from general skepticism to specific documentation. 2023: 'AI code could lead to massive security incident.' 2025: documented 'vibe coding usage declining after initial steep rise' and 'projects typically start well but end badly.' Gained specificity as real-world deployment data became available."
+  },
+  {
+    "cluster_id": "llm_agents_premature",
+    "canonical_statement": "LLM-based autonomous agents are unreliable and not ready for real-world deployment.",
+    "first_appearance": "claim_0214",
+    "claim_count": 35,
+    "date_range": [
+      "2023-02-16",
+      "2026-02-03"
+    ],
+    "revision_notes": "Asserted 35 times across 17 distinct dates from 2023-02-16 to 2026-02-03"
+  },
+  {
+    "cluster_id": "sora_video_unreliable",
+    "canonical_statement": "AI video generation (especially Sora) cannot simulate real physics and produces physically impossible outputs.",
+    "first_appearance": "claim_0103",
+    "claim_count": 34,
+    "date_range": [
+      "2023-02-13",
+      "2025-10-22"
+    ],
+    "revision_notes": "Asserted 34 times across 11 distinct dates from 2023-02-13 to 2025-10-22"
+  },
+  {
+    "cluster_id": "ai_military_dangerous",
+    "canonical_statement": "Deploying unreliable AI in military applications and lethal autonomous weapons is extremely dangerous.",
+    "first_appearance": "claim_0416",
+    "claim_count": 33,
+    "date_range": [
+      "2023-08-27",
+      "2026-03-01"
+    ],
+    "revision_notes": "Asserted 33 times across 17 distinct dates from 2023-08-27 to 2026-03-01"
+  },
+  {
+    "cluster_id": "china_ai_competition",
+    "canonical_statement": "The US-China AI competition is consequential, and current US policy may be counterproductive.",
+    "first_appearance": "claim_0325",
+    "claim_count": 32,
+    "date_range": [
+      "2023-04-09",
+      "2026-01-06"
+    ],
+    "revision_notes": "Asserted 32 times across 19 distinct dates from 2023-04-09 to 2026-01-06"
+  },
+  {
+    "cluster_id": "industry_self_regulation_fails",
+    "canonical_statement": "AI companies cannot be trusted to self-regulate; they externalize costs while capturing profits.",
+    "first_appearance": "claim_0190",
+    "claim_count": 31,
+    "date_range": [
+      "2023-02-16",
+      "2026-02-12"
+    ],
+    "revision_notes": "Asserted 31 times across 28 distinct dates from 2023-02-16 to 2026-02-12"
+  },
+  {
+    "cluster_id": "ai_needs_new_paradigm",
+    "canonical_statement": "Fundamentally new AI approaches are needed because the current deep learning/LLM paradigm has inherent, unfixable limitations.",
+    "first_appearance": "claim_0036",
+    "claim_count": 28,
+    "date_range": [
+      "2023-02-11",
+      "2026-02-04"
+    ],
+    "revision_notes": "Asserted 28 times across 23 distinct dates from 2023-02-11 to 2026-02-04"
+  },
+  {
+    "cluster_id": "ai_worsens_inequality",
+    "canonical_statement": "AI concentrates power/wealth while harming marginalized communities through bias, discrimination, and denial of services.",
+    "first_appearance": "claim_0158",
+    "claim_count": 25,
+    "date_range": [
+      "2023-02-15",
+      "2026-02-17"
+    ],
+    "revision_notes": "Asserted 25 times across 21 distinct dates from 2023-02-15 to 2026-02-17"
+  },
+  {
+    "cluster_id": "trump_ai_policy_harmful",
+    "canonical_statement": "The Trump administration's AI deregulation and industry capture will harm citizens and benefit only AI companies.",
+    "first_appearance": "claim_0235",
+    "claim_count": 22,
+    "date_range": [
+      "2023-02-20",
+      "2026-02-27"
+    ],
+    "revision_notes": "Asserted 22 times across 17 distinct dates from 2023-02-20 to 2026-02-27"
+  },
+  {
+    "cluster_id": "generalization_failure",
+    "canonical_statement": "LLMs fail to generalize beyond their training distribution, breaking on novel variations of familiar problems.",
+    "first_appearance": "claim_0056",
+    "claim_count": 22,
+    "date_range": [
+      "2023-02-11",
+      "2025-12-01"
+    ],
+    "revision_notes": "Asserted 22 times across 17 distinct dates from 2023-02-11 to 2025-12-01"
+  },
+  {
+    "cluster_id": "ai_progress_not_linear",
+    "canonical_statement": "AI progress is not linear or exponential; easy gains come first and fundamental problems remain unsolved.",
+    "first_appearance": "claim_0558",
+    "claim_count": 21,
+    "date_range": [
+      "2023-11-26",
+      "2026-02-02"
+    ],
+    "revision_notes": "Asserted 21 times across 18 distinct dates from 2023-11-26 to 2026-02-02"
+  },
+  {
+    "cluster_id": "ai_existential_risk_real_but_misframed",
+    "canonical_statement": "AI poses real risks, but focus on far-future superintelligence distracts from immediate concrete dangers.",
+    "first_appearance": "claim_0263",
+    "claim_count": 20,
+    "date_range": [
+      "2023-03-11",
+      "2026-02-25"
+    ],
+    "revision_notes": "Asserted 20 times across 17 distinct dates from 2023-03-11 to 2026-02-25"
+  },
+  {
+    "cluster_id": "ai_image_gen_unreliable",
+    "canonical_statement": "AI image generation systems fail at compositional understanding, spatial relationships, and faithful prompt adherence.",
+    "first_appearance": "claim_0046",
+    "claim_count": 17,
+    "date_range": [
+      "2023-02-11",
+      "2025-08-27"
+    ],
+    "revision_notes": "Asserted 17 times across 11 distinct dates from 2023-02-11 to 2025-08-27"
+  },
+  {
+    "cluster_id": "ai_job_disruption_overhyped",
+    "canonical_statement": "Claims that AI will massively replace human jobs are premature; AI augments rather than replaces most workers.",
+    "first_appearance": "claim_0089",
+    "claim_count": 17,
+    "date_range": [
+      "2023-02-12",
+      "2026-02-23"
+    ],
+    "revision_notes": "Asserted 17 times across 16 distinct dates from 2023-02-12 to 2026-02-23"
+  },
+  {
+    "cluster_id": "altman_overpromises",
+    "canonical_statement": "Sam Altman systematically overpromises and underdelivers on AI capabilities, timelines, and ethical commitments.",
+    "first_appearance": "claim_0585",
+    "claim_count": 15,
+    "date_range": [
+      "2023-12-07",
+      "2026-02-04"
+    ],
+    "revision_notes": "Thesis hardened from skepticism to documented pattern. Early: questioned specific timeline claims. Late 2025-2026: 'Sam Altman publicly denied seeking government loan guarantees while OpenAI had explicitly requested them,' documenting specific dishonesty rather than just overoptimism."
+  },
+  {
+    "cluster_id": "nvidia_vulnerable",
+    "canonical_statement": "Nvidia's dominance and valuation are vulnerable to efficiency gains and potential industry downturn.",
+    "first_appearance": "claim_1151",
+    "claim_count": 14,
+    "date_range": [
+      "2024-11-09",
+      "2026-02-05"
+    ],
+    "revision_notes": "Asserted 14 times across 11 distinct dates from 2024-11-09 to 2026-02-05"
+  },
+  {
+    "cluster_id": "llms_lack_compositionality",
+    "canonical_statement": "LLMs and neural nets fundamentally lack compositionality -- the ability to understand novel combinations of concepts.",
+    "first_appearance": "claim_0009",
+    "claim_count": 14,
+    "date_range": [
+      "2022-05-29",
+      "2025-08-27"
+    ],
+    "revision_notes": "Asserted 14 times across 9 distinct dates from 2022-05-29 to 2025-08-27"
+  },
+  {
+    "cluster_id": "ai_safety_requires_understanding",
+    "canonical_statement": "We cannot make AI safe without understanding how it works; interpretability and formal verification are prerequisites.",
+    "first_appearance": "claim_0093",
+    "claim_count": 13,
+    "date_range": [
+      "2023-02-12",
+      "2025-10-16"
+    ],
+    "revision_notes": "Asserted 13 times across 13 distinct dates from 2023-02-12 to 2025-10-16"
+  },
+  {
+    "cluster_id": "lecun_criticism",
+    "canonical_statement": "Yann LeCun's positions (anti-symbolic, dismissive of risks) have been counterproductive for the AI field.",
+    "first_appearance": "claim_0026",
+    "claim_count": 12,
+    "date_range": [
+      "2023-02-04",
+      "2026-01-06"
+    ],
+    "revision_notes": "Asserted 12 times across 6 distinct dates from 2023-02-04 to 2026-01-06"
+  },
+  {
+    "cluster_id": "ai_media_coverage_uncritical",
+    "canonical_statement": "Media coverage of AI is overwhelmingly uncritical, amplifying industry hype without adequate scrutiny.",
+    "first_appearance": "claim_0330",
+    "claim_count": 12,
+    "date_range": [
+      "2023-04-17",
+      "2026-02-12"
+    ],
+    "revision_notes": "Asserted 12 times across 12 distinct dates from 2023-04-17 to 2026-02-12"
+  },
+  {
+    "cluster_id": "ai_child_safety",
+    "canonical_statement": "AI systems pose particular dangers to children and teens that remain unaddressed.",
+    "first_appearance": "claim_0011",
+    "claim_count": 11,
+    "date_range": [
+      "2022-05-29",
+      "2026-02-23"
+    ],
+    "revision_notes": "Asserted 11 times across 11 distinct dates from 2022-05-29 to 2026-02-23"
+  },
+  {
+    "cluster_id": "ai_enviro_costs_ignored",
+    "canonical_statement": "The environmental costs of AI (energy, water, carbon) are substantial, underreported, and growing unsustainably.",
+    "first_appearance": "claim_0388",
+    "claim_count": 11,
+    "date_range": [
+      "2023-08-17",
+      "2026-02-23"
+    ],
+    "revision_notes": "Asserted 11 times across 9 distinct dates from 2023-08-17 to 2026-02-23"
+  },
+  {
+    "cluster_id": "ai_surveillance_authoritarian",
+    "canonical_statement": "AI-powered surveillance is inherently authoritarian and its expansion threatens civil liberties.",
+    "first_appearance": "claim_0420",
+    "claim_count": 10,
+    "date_range": [
+      "2023-08-28",
+      "2026-02-26"
+    ],
+    "revision_notes": "Asserted 10 times across 9 distinct dates from 2023-08-28 to 2026-02-26"
+  },
+  {
+    "cluster_id": "hinton_criticism",
+    "canonical_statement": "Geoffrey Hinton's late pivot to AI risk advocacy is complicated by decades of dismissing symbolic AI and safety.",
+    "first_appearance": "claim_0350",
+    "claim_count": 9,
+    "date_range": [
+      "2023-05-01",
+      "2025-08-23"
+    ],
+    "revision_notes": "Asserted 9 times across 9 distinct dates from 2023-05-01 to 2025-08-23"
+  },
+  {
+    "cluster_id": "agi_definition_diluted",
+    "canonical_statement": "AI labs are diluting the definition of AGI to declare premature victory and justify their business models.",
+    "first_appearance": "claim_0404",
+    "claim_count": 9,
+    "date_range": [
+      "2023-08-20",
+      "2026-02-17"
+    ],
+    "revision_notes": "Asserted 9 times across 6 distinct dates from 2023-08-20 to 2026-02-17"
+  },
+  {
+    "cluster_id": "ai_hype_cycle_parallels",
+    "canonical_statement": "The current AI hype cycle follows historical patterns (dot-com, crypto, AI winters) and will end similarly.",
+    "first_appearance": "claim_0186",
+    "claim_count": 9,
+    "date_range": [
+      "2023-02-15",
+      "2026-02-23"
+    ],
+    "revision_notes": "Asserted 9 times across 9 distinct dates from 2023-02-15 to 2026-02-23"
+  },
+  {
+    "cluster_id": "llm_security_vulnerabilities",
+    "canonical_statement": "LLMs have fundamental security vulnerabilities (prompt injection, jailbreaking) that cannot be fully patched.",
+    "first_appearance": "claim_0209",
+    "claim_count": 7,
+    "date_range": [
+      "2023-02-16",
+      "2025-01-03"
+    ],
+    "revision_notes": "Asserted 7 times across 6 distinct dates from 2023-02-16 to 2025-01-03"
+  },
+  {
+    "cluster_id": "llms_lack_self_correction",
+    "canonical_statement": "LLMs cannot reliably verify or self-correct their outputs, a fundamental cognitive limitation.",
+    "first_appearance": "claim_0203",
+    "claim_count": 7,
+    "date_range": [
+      "2023-02-16",
+      "2026-02-11"
+    ],
+    "revision_notes": "Asserted 7 times across 7 distinct dates from 2023-02-16 to 2026-02-11"
+  },
+  {
+    "cluster_id": "llms_cannot_plan",
+    "canonical_statement": "LLMs cannot perform genuine multi-step planning, fundamentally limited in lookahead and strategy tasks.",
+    "first_appearance": "claim_0324",
+    "claim_count": 6,
+    "date_range": [
+      "2023-04-09",
+      "2025-08-23"
+    ],
+    "revision_notes": "Asserted 6 times across 5 distinct dates from 2023-04-09 to 2025-08-23"
+  },
+  {
+    "cluster_id": "ai_scientists_overstate",
+    "canonical_statement": "Leading AI researchers and labs systematically overstate capabilities and make misleading claims.",
+    "first_appearance": "claim_0969",
+    "claim_count": 3,
+    "date_range": [
+      "2024-06-22",
+      "2024-10-30"
+    ],
+    "revision_notes": "Asserted 3 times across 3 distinct dates from 2024-06-22 to 2024-10-30"
+  },
+  {
+    "cluster_id": "ai_pause_or_slowdown",
+    "canonical_statement": "AI development should be paused or slowed until safety and governance frameworks are in place.",
+    "first_appearance": "claim_0296",
+    "claim_count": 1,
+    "date_range": [
+      "2023-03-29",
+      "2023-03-29"
+    ],
+    "revision_notes": null
+  }
+]

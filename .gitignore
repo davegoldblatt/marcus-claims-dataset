@@ -1,0 +1,14 @@
+# Full-text corpus — copyrighted, local-only
+posts/
+
+# Empty directory
+final_tables/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/

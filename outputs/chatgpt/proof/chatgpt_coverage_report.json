@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-03-03T00:44:32+00:00",
+  "posts_dir": "/Users/davidgoldblatt/Desktop/marcus_scrape/posts",
+  "total_posts_in_manifest": 474,
+  "reviewed_posts": 474,
+  "missing_posts": 0,
+  "claims_file_unique_source_posts": 323,
+  "claims_file_coverage_pct": 68.14,
+  "claim_count_stats_per_post_with_claims": {
+    "min": 1,
+    "max": 23,
+    "median_approx": 2
+  },
+  "proof_scope": {
+    "guarantees": [
+      "Every post file under posts/ was read and hashed",
+      "Manifest integrity can be independently re-verified with SHA256",
+      "Coverage of local corpus is complete at generation time"
+    ],
+    "does_not_guarantee": [
+      "Human close-reading quality",
+      "Correctness of extracted claim judgments",
+      "Completeness of paywalled content"
+    ]
+  }
+}

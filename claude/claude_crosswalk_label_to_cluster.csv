@@ -1,0 +1,53 @@
+chatgpt_theme_label,claude_cluster_id,claude_claim_count,match_confidence,match_rationale
+agents_reliability,llm_agents_premature,35,high,Direct semantic match — both about LLM agent readiness/reliability
+agents_reliability,llms_unreliable_for_critical_apps,40,low,Overlap when agent themes concern deployment in high-stakes domains
+agi_timeline,agi_not_imminent,51,high,Direct match — AGI timeline skepticism
+agi_timeline,agi_definition_diluted,9,high,AGI framing/definition is a subtype of AGI timeline discourse
+agi_timeline,ai_progress_not_linear,21,medium,AGI timeline claims often invoke non-linear progress arguments
+agi_timeline,scaling_wont_reach_agi,106,medium,Scaling skepticism is the mechanism behind many AGI timeline claims; but ChatGPT also has separate scaling_limits label
+agi_timeline,need_hybrid_neurosymbolic,46,low,Some AGI timeline themes invoke neurosymbolic as the path; secondary signal
+copyright_ip,ai_copyright_infringement,72,high,Direct semantic match — training data IP issues
+hallucination_misinformation,hallucination_unsolvable,120,high,Direct match — hallucination as persistent/architectural problem
+hallucination_misinformation,deepfakes_threaten_democracy,79,high,Misinformation via AI-generated content (deepfakes/disinfo)
+hallucination_misinformation,llms_lack_self_correction,7,medium,Self-correction failure is a mechanism behind persistent hallucination
+hallucination_misinformation,ai_media_coverage_uncritical,12,low,Some hallucination/misinfo themes touch on media amplification
+market_hype_bubble,genai_bubble_will_burst,63,high,Direct match — AI market bubble thesis
+market_hype_bubble,ai_roi_disappointing,132,high,ROI disappointment is the evidence base for bubble claims
+market_hype_bubble,ai_hype_cycle_parallels,9,high,Historical bubble parallels directly support market_hype framing
+market_hype_bubble,nvidia_vulnerable,14,medium,Nvidia vulnerability is a specific market_hype sub-thesis
+openai_governance,openai_untrustworthy,56,high,Direct match — OpenAI trustworthiness/governance failures
+openai_governance,openai_wont_stay_dominant,87,high,OpenAI competitive position is core governance/trajectory theme
+openai_governance,altman_overpromises,15,high,Altman's behavior is a sub-theme of OpenAI governance
+openai_governance,gpt5_disappointing,65,medium,GPT-5 outcomes reflect on OpenAI's trajectory; but also has scaling/capability angle
+openai_governance,industry_self_regulation_fails,31,low,Some OpenAI governance themes generalize to industry self-regulation
+reasoning_common_sense,llms_cannot_reason_reliably,64,high,Direct match — LLM reasoning limitations
+reasoning_common_sense,llms_no_real_understanding,40,high,Lack of understanding is the mechanism behind reasoning failures
+reasoning_common_sense,llms_lack_world_models,124,high,World model absence is a core reasoning/common-sense deficit
+reasoning_common_sense,llms_lack_compositionality,14,high,Compositionality failure is a specific reasoning sub-type
+reasoning_common_sense,generalization_failure,22,high,Generalization failure is a specific reasoning/common-sense deficit
+reasoning_common_sense,need_hybrid_neurosymbolic,46,medium,Neurosymbolic is the proposed solution to reasoning gaps; some themes invoke it directly
+reasoning_common_sense,llms_cannot_plan,6,medium,Planning failure is a specific reasoning sub-type
+reasoning_common_sense,llms_lack_self_correction,7,medium,Self-correction failure is a reasoning-adjacent limitation
+reasoning_common_sense,ai_benchmarks_misleading,41,low,Some reasoning themes reference misleading benchmark claims
+regulation_policy,ai_needs_regulation,164,high,Direct match — need for AI regulation
+regulation_policy,industry_self_regulation_fails,31,high,Self-regulation failure is core rationale for regulation_policy
+regulation_policy,trump_ai_policy_harmful,22,medium,Trump AI policy is a specific regulation sub-theme
+regulation_policy,ai_pause_or_slowdown,1,medium,Pause/slowdown is a regulatory policy position
+safety_alignment,ai_existential_risk_real_but_misframed,20,high,Directly about AI safety/risk framing
+safety_alignment,ai_safety_requires_understanding,13,high,Safety-through-understanding is a core alignment thesis
+safety_alignment,ai_military_dangerous,33,high,Military AI risk is a major safety sub-theme
+safety_alignment,ai_child_safety,11,high,Child safety is a specific safety sub-theme
+safety_alignment,ai_worsens_inequality,25,medium,Inequality harms are a safety/alignment concern in broader framing
+safety_alignment,ai_surveillance_authoritarian,10,medium,Surveillance is a safety/alignment sub-theme
+safety_alignment,llms_unreliable_for_critical_apps,40,medium,Unreliability in critical apps is a safety concern; also connects to reasoning
+safety_alignment,ai_enviro_costs_ignored,11,low,Environmental costs appear in some safety-framed themes
+safety_alignment,llm_security_vulnerabilities,7,low,Security vulns are safety-adjacent but more technical
+scaling_limits,scaling_wont_reach_agi,106,high,Direct match — scaling insufficiency thesis
+scaling_limits,ai_needs_new_paradigm,28,high,New paradigm needed is the flip side of scaling limits
+scaling_limits,ai_progress_not_linear,21,high,Non-linear progress directly supports scaling limits argument
+scaling_limits,need_hybrid_neurosymbolic,46,medium,Neurosymbolic as alternative to pure scaling
+scaling_limits,o3_not_breakthrough,45,medium,o3 skepticism is evidence for scaling limits (reasoning models as scaling play)
+scaling_limits,llm_reliability_fundamental,43,low,Fundamental unreliability supports scaling limits but is more about architecture
+self_driving_robotics,musk_ai_hypocrisy,55,medium,Tesla/Musk self-driving claims are a major sub-theme of musk_ai_hypocrisy
+self_driving_robotics,llms_unreliable_for_critical_apps,40,low,Self-driving is a critical app where LLM unreliability matters
+self_driving_robotics,miscellaneous,86,low,Some self-driving/robotics claims may be in Claude's miscellaneous bucket
