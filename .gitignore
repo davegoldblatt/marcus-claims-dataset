@@ -12,3 +12,6 @@ final_tables/
 __pycache__/
 *.pyc
 .venv/
+
+# Internal session notes
+claude/claude_SESSION_HANDOFF*.md
