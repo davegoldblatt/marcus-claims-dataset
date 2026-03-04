@@ -14,7 +14,7 @@ Among claims where the evidence is checkable:
 
 That's not the number most people expect from either side.
 
-## But the interesting part is where
+## Where he's right and where he's wrong
 
 His best work is specific and technical. When Marcus points at a broken thing and says "that's broken," the evidence backs him up almost perfectly. LLM security vulnerabilities: 100% supported, 0% contradicted. Sora video unreliable: 90% supported, 0% contradicted. Agents premature for production: 88% supported, 0% contradicted. Across those three clusters, not a single claim was contradicted by the evidence.
 
