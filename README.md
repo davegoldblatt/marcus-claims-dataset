@@ -18,9 +18,13 @@ That's not the number most people expect from either side.
 
 His best work is specific and technical. When Marcus points at a broken thing and says "that's broken," the evidence backs him up almost perfectly. LLM security vulnerabilities: 100% supported, 0% contradicted. Sora video unreliable: 90% supported, 0% contradicted. Agents premature for production: 88% supported, 0% contradicted. Across those three clusters, not a single claim was contradicted by the evidence.
 
+![Best and worst clusters](images/marcus_best_worst_clusters.png)
+
 His worst work is market prediction. "GenAI bubble will burst": 27% contradicted, his single worst cluster out of 54. He went from "potential AI winter" (2023) to "greatest capital destruction in history" (2025) to "the whole thing was a scam" (Feb 2026). The crash hasn't come.
 
 He writes more about the thing he's getting wrong. His hallucination cluster (most vindicated thesis) spiked when he established it in early 2023, then settled into a steady drumbeat. His bubble cluster (most contradicted) went from near-zero in 2023 to his highest quarterly output in Q4 2025.
+
+![Accuracy by year](images/marcus_accuracy_by_year.png)
 
 ## How it was built
 
@@ -48,6 +52,10 @@ The raw posts (`posts/*.txt`) are excluded — copyrighted Substack content. A *
 ## Caveats
 
 All verdicts are LLM-scored, not human-verified. "Supported" means "supported according to an LLM evaluating evidence available as of March 2026." Spot-check against source posts before citing specific claims. See **Known Limitations** for the full list.
+
+## Analysis
+
+Full essay with commentary: [SUBSTACK_URL]
 
 ## Built by
 
