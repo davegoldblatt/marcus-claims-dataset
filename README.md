@@ -55,7 +55,7 @@ All verdicts are LLM-scored, not human-verified. "Supported" means "supported ac
 
 ## Analysis
 
-Full essay with commentary: [SUBSTACK_URL]
+Full essay with commentary: [The Most Expensive Kind of Correct](https://davesquickhits.substack.com/p/the-most-expensive-kind-of-correct)
 
 ## Built by
 
